@@ -53,13 +53,13 @@ public class BrokenBinary : MonoBehaviour
     public char shifted;
     Random rnd = new Random();
 
-    public string[] _WordList = { "GHOST", "GIANT",  "ULTRA", "SUPER",
-        "HYPER", "INDIA", "APLHA", "SIMON",
-    "STICK", "MARIO", "LUCKY", "DISCO", "BRAVO",
-    "ABORT", "ABOUT", "BLACK", "BEAST", "CLOCK", "CLOSE", "CHAIR", "CRASH", "DELTA", "DIGIT", "EIGHT", "GAMMA", "GLASS",
-    "GREEN", "GUESS", "HOTEL", "INDIA", "KAPPA", "LATER", "LEMON", "MONTH", "MORSE", "NORTH", "OMEGA",
-    "OSCAR", "PANIC", "PRESS", "ROMEO", "SEVEN", "SIGMA", "SMASH", "SOUTH", "TANGO", "TIMER", "VOICE", "WHILE",
-    "WHITE", "WORLD", "WORRY", "WOULD"};
+    public string[] _WordList = { 
+    "ABORT", "ABOUT", "ALERT", "ALPHA", "ALTER", "BLACK", "BASTE", "BEAST", "BEATS", "BLOCK", "BRAVO", "CLOCK", "CLOSE",
+    "CHAIR", "CRASH", "DEALT", "DELTA", "DIGIT", "DISCO", "EIGHT", "EVENS", "GAMMA", "GENRE", "GHOST", "GIANT", "GLASS",
+    "GOTHS", "GREEN", "GUESS", "HOTEL", "HYPER", "INDIA", "KAPPA", "LATER", "LEMON", "LUCKY", "MAGMA", "MARIO", "MELON",
+    "MERIT", "MONTH", "MORSE", "NORTH", "OMEGA", "OSCAR", "PANIC", "PRESS", "PURSE", "ROMEO", "SEVEN", "SHOUT", "SIGMA",
+    "SIMON", "SMASH", "SOUTH", "STICK", "SUPER", "TANGO", "THORN", "TICKS", "TIMER", "ULTRA", "VOICE", "WHILE", "WHITE",
+    "WORLD", "WORRY", "WOULD"};
 
 
     private static int _moduleIDCounter = 1;
